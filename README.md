@@ -1,7 +1,8 @@
 <p align="center"><img src=".github/banner.png" alt="halal-audio-check" width="100%"></p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/python-3.9%2B-0c1a30?style=flat-square" alt="Python 3.9+">
+  <a href="https://github.com/kal-eficia/halal-audio-check/actions/workflows/tests.yml"><img src="https://github.com/kal-eficia/halal-audio-check/actions/workflows/tests.yml/badge.svg" alt="tests"></a>
+  <img src="https://img.shields.io/badge/python-3.10%2B-0c1a30?style=flat-square" alt="Python 3.10+">
   <img src="https://img.shields.io/badge/needs-numpy%20%2B%20ffmpeg-0c1a30?style=flat-square" alt="numpy and ffmpeg">
   <img src="https://img.shields.io/badge/runs-offline-0f8b8d?style=flat-square" alt="Runs offline">
   <img src="https://img.shields.io/badge/licence-MIT-c99a2e?style=flat-square" alt="MIT">

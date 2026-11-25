@@ -7,7 +7,7 @@ name = "halal-audio-check"
 version = "1.0.0"
 description = "Flag music in a video's soundtrack, with timestamps, so creators can keep their audio halal. Runs offline."
 readme = "README.md"
-requires-python = ">=3.9"
+requires-python = ">=3.10"
 license = { text = "MIT" }
 authors = [{ name = "Kalid Nur" }]
 dependencies = ["numpy>=1.22"]
