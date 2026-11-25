@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "halal-audio-check"
+version = "1.0.0"
+description = "Flag music in a video's soundtrack, with timestamps, so creators can keep their audio halal. Runs offline."
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+authors = [{ name = "Kalid Nur" }]
+dependencies = ["numpy>=1.22"]
+keywords = ["audio", "music-detection", "video", "creators", "halal", "ffmpeg"]
+
+[project.optional-dependencies]
+timeline = ["matplotlib"]
+
+[project.scripts]
+halal-audio-check = "halalaudio.cli:main"
+
+[tool.setuptools]
+packages = ["halalaudio"]
